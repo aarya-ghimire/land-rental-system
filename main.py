@@ -3,6 +3,7 @@ from write import land_info_writing
 from read import land_info_reading
 from datetime import datetime
 
+# Main function
 def main():
     while True:
         try:
