@@ -12,7 +12,7 @@ def main():
                 land_data = land_info_reading()
                 display_available_lands_to_rent(land_data)
                 
-                # Generating a list of available kitta numbers
+                # Generating a list of available kitta numbers.
                 available_kitta_numbers = []
                 for land in land_data:
                     if land[-1] == "Available":
